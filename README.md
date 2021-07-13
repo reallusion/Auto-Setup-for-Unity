@@ -2,13 +2,13 @@
 
 Copyright (c) 2021, Reallusion, Inc. All rights reserved.   
 
-[Character Creator](https://www.reallusion.com/character-creator/ "link") and [iClone](https://www.reallusion.com/iclone/default.html "link") provide quality characters, animations, and assets to game developers.  
+<a href="https://www.reallusion.com/character-creator/" target="_blank">Character Creator</a> and <a href="https://www.reallusion.com/iclone/default.html" target="_blank">iClone</a> provide quality characters, animations, and assets to game developers.  
 To save time in the complicated and routine works of import, Reallusion offers tools to automate the process of shader assignment and characterization for Unity.      
 
 ![workflow](https://www.reallusion.com/character-creator/includes/images/unity-auto-setup/unity-auto-setup.png "Logo")
 
 -------------------------------------------------
-**[How to install and Use](https://manual.reallusion.com/CC_and_IC_Auto_Setup_Plugin/ENU/CC_and_iC_Auto_Setup/1.0/03_for_Unity/Unity_Importing_Character_FBX_File.htm "link")**
+<a href="https://manual.reallusion.com/CC_and_IC_Auto_Setup_Plugin/ENU/CC_and_iC_Auto_Setup/1.0/03_for_Unity/Unity_Importing_Character_FBX_File.htm" target="_blank">How to install and Use</a>
 -------------------------------------------------
 1. Move the extracted files into Unity’s Asset folder (manually create this folder in the Assets directory, if it’s missing).
 2. Export Character using Unity preset from Reallusion Character Creator.
@@ -52,8 +52,8 @@ Pay special attention to Auto Setup importing the FBX twice. This is because the
 ----------------------
 **External Library**
 ----------------------
-[LitJSON](https://github.com/LitJSON/litjson "link")     
-[A solution to detecting Unity's active RenderPipeline](https://gitlab.com/-/snippets/2026367 "link")
+- <a href="https://github.com/LitJSON/litjson" target="_blank">LitJSON</a>        
+- <a href="https://gitlab.com/-/snippets/2026367" target="_blank">A solution to detecting Unity's active RenderPipeline</a>
 
 ----------------------
 **Compatible Version**
