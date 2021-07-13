@@ -2,7 +2,7 @@
 
 Copyright (c) 2021, Reallusion, Inc. All rights reserved.   
 
-Character Creator and iClone provide quality characters, animations, and assets to game developers.  
+[Character Creator](https://www.reallusion.com/character-creator/ "link") and [iClone](https://www.reallusion.com/iclone/default.html "link") provide quality characters, animations, and assets to game developers.  
 To save time in the complicated and routine works of import, Reallusion offers tools to automate the process of shader assignment and characterization for Unity.      
 
 ![workflow](https://www.reallusion.com/character-creator/includes/images/unity-auto-setup/unity-auto-setup.png "Logo")
