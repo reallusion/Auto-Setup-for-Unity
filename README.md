@@ -3,7 +3,7 @@
 Character Creator and iClone provide quality characters, animations, and assets to game developers.  
 To save time in the complicated and routine works of import, Reallusion offers tools to automate the process of shader assignment and characterization for Unity.      
 
-![圖片參考名稱](https://www.reallusion.com/character-creator/includes/images/unity-auto-setup/unity-auto-setup.png "Logo")
+![workflow](https://www.reallusion.com/character-creator/includes/images/unity-auto-setup/unity-auto-setup.png "Logo")
 
 -------------------------------------------------
 **[How to install and Use](https://manual.reallusion.com/CC_and_IC_Auto_Setup_Plugin/ENU/CC_and_iC_Auto_Setup/1.0/03_for_Unity/Unity_Importing_Character_FBX_File.htm "link")**
@@ -46,6 +46,12 @@ Pay special attention to Auto Setup importing the FBX twice. This is because the
     2. Set the Diffuse Profile in HDRP.
     3. Find the corresponding JSON file.
     4. Set the texture and material properties according to the shader name.
+
+----------------------
+**External Library**
+----------------------
+[LitJSON](https://github.com/LitJSON/litjson "link")
+[A solution to detecting Unity's active RenderPipeline](https://gitlab.com/-/snippets/2026367 "link")
 
 ----------------------
 **Compatible Version**
