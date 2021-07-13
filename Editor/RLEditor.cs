@@ -16,7 +16,7 @@ using System;
 using LitJson;
 using RealCode;
 
-#if USING_LWRP
+#if USING_URP
 using UnityEngine.Experimental.Rendering;
 #endif
 using UnityEngine.Rendering;
@@ -1111,7 +1111,7 @@ namespace RLPlugin
                             || strShaderName == "Universal Render Pipeline/Lit")
                         {
                             //Diffuse
-#if USING_LWRP
+#if USING_URP
                             rlMaterail.SetFloat("_WorkflowMode", 1f);
                             string strDiffuseChannel = "_BaseMap";
                             string strColorChannel = "_BaseColor";
@@ -1268,7 +1268,7 @@ namespace RLPlugin
                                 || strShaderName == "Lightweight Render Pipeline/Lit"
                                 || strShaderName == "Universal Render Pipeline/Lit")
                             {
-#if USING_LWRP
+#if USING_URP
                                 if (rlMaterail.name.ToLower().Contains(MaterialKeyWord.Hair) || rlMaterail.name.ToLower().Contains(MaterialKeyWord.Eyelash) || rlMaterail.name.Contains(MaterialKeyWord.Transparency))
                                 {
                                     rlMaterail.SetFloat("_Surface", 1f);
@@ -1987,7 +1987,7 @@ namespace RLPlugin
         }
 #endif
 
-#if USING_LWRP
+#if USING_URP
         /*
          * Adjust LWRP material according to material name. 
          * Currently processes Smoothness only, however CreateMaterials settings can be partially moved here.
