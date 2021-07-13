@@ -50,7 +50,7 @@ Pay special attention to Auto Setup importing the FBX twice. This is because the
 ----------------------
 **External Library**
 ----------------------
-[LitJSON](https://github.com/LitJSON/litjson "link")
+[LitJSON](https://github.com/LitJSON/litjson "link")     
 [A solution to detecting Unity's active RenderPipeline](https://gitlab.com/-/snippets/2026367 "link")
 
 ----------------------
