@@ -1,4 +1,6 @@
-# Auto Setup for Unity Script Readme file
+# Auto Setup for Unity Script Readme file   
+
+Copyright (c) 2021, Reallusion, Inc. All rights reserved.   
 
 Character Creator and iClone provide quality characters, animations, and assets to game developers.  
 To save time in the complicated and routine works of import, Reallusion offers tools to automate the process of shader assignment and characterization for Unity.      
@@ -57,6 +59,3 @@ Pay special attention to Auto Setup importing the FBX twice. This is because the
 **Compatible Version**
 ----------------------
 Unity 2021.1, 2020.3(LTS) and 2019.4(LTS) with HDRP and URP.
-
-Copyright (c) 2021, Reallusion, Inc. All rights reserved.
-
