@@ -848,8 +848,8 @@ namespace RLPlugin
             }
 
             // First move the textures to the top level folder.
-            MoveImageToTopFolder(kImportedAsset);
-            RemoveEmptyTextureFolder(kImportedAsset);
+            // MoveImageToTopFolder(kImportedAsset);
+            // RemoveEmptyTextureFolder(kImportedAsset);
 
             string strFileRLSourceFolder = Application.dataPath + "/" + strRootRLFolder;
             EnsureDirectoryExists(strFileRLSourceFolder);
@@ -1071,11 +1071,12 @@ namespace RLPlugin
                             {
                                 string strTexturePath = kTextureData[kJsonPathKey].ToString();
                                 strTexturePath = ConvertToAssetPath(strTexturePath);
+                                /*
                                 if (strTexturePath.Contains("textures/"))
                                 {
                                     strTexturePath = ChangeImageTexturePath(strTexturePath);
                                 }
-
+                                */
                                 if (File.Exists(strTexturePath))
                                 {
                                     rlMaterail.SetTexture(strUnityChannel, LoadTexture(strTexturePath));
