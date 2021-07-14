@@ -35,11 +35,11 @@ Every imported object will undergo post-processing, the main settings are applie
     2. OnPostprocessModel > CreateHumanoidPost & SetAnimation
     3. OnPostprocessAllAssets: Main procedure (see notes).
 
-Notes:
-Relocating textures: MoveImageToTopFolder & RemoveEmptyTextureFolder
-Deploying Animator: AutoCreateAnimator
-Deploying Materials: CreateMaterials
-Deploying Prefabs: CreateOneLODPrefabFromModel or CreatePrefabFromModel
+Notes:  
+Relocating textures: MoveImageToTopFolder & RemoveEmptyTextureFolder  
+Deploying Animator: AutoCreateAnimator  
+Deploying Materials: CreateMaterials  
+Deploying Prefabs: CreateOneLODPrefabFromModel or CreatePrefabFromModel  
 Pay special attention to Auto Setup importing the FBX twice. This is because the first import for the previous version tends to create erroneous data within the materials or create unforeseen problems during operation. The new version runs through the import process twice to mitigate the occurrence of these mistakes, however, you will still need to make sure the problems are resolved.
 
 **Creating Materials**
