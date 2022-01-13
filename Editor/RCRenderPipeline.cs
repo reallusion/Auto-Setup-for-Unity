@@ -134,7 +134,7 @@ namespace RealCode
 				directory = directory.Parent;
 
 			///Debug.Log(directory.FullName);
-			File.WriteAllText(directory.FullName + "\\" + CS_FILENAME, Code);
+			File.WriteAllText(directory.FullName + Path.DirectorySeparatorChar + CS_FILENAME, Code);
 
 		}
 		private static string CSharpFileCode (bool defineHDRP, bool defineURP)
